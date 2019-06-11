@@ -119,6 +119,9 @@ todo_include_todos = False
 # Пока закомментирую рабочий вариант:
 html_theme = 'sphinx_rtd_theme'
 
+def setup(app):
+    app.add_stylesheet('theme_overrides.css')
+
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
