@@ -122,6 +122,9 @@ html_theme = 'sphinx_rtd_theme'
 def setup(app):
     app.add_stylesheet('theme_overrides.css')
 
+html_js_files = [
+    'ultra_custom.js',
+]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
