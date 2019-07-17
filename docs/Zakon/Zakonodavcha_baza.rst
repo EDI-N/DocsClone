@@ -118,7 +118,7 @@
 .. raw:: html
     
     <!-- Return to Top -->
-    <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+    <small class="top"><a href="#topchik"></a></small>
 
 
     <!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->

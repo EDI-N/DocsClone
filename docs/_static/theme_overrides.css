@@ -23,7 +23,7 @@
 }
 
 /* Это для кнопки "Scroll To top" */
-#return-to-top {
+#topchik {
    position: fixed;
    bottom: 20px;
    right: 20px;
@@ -43,7 +43,7 @@
    -o-transition: all 0.3s ease;
    transition: all 0.3s ease;
 }
-#return-to-top i {
+#topchik i {
    color: #fff;
    margin: 0;
    position: relative;
@@ -56,10 +56,10 @@
    -o-transition: all 0.3s ease;
    transition: all 0.3s ease;
 }
-#return-to-top:hover {
+#topchik:hover {
    background: rgba(0, 0, 0, 0.9);
 }
-#return-to-top:hover i {
+#topchik:hover i {
    color: #fff;
    top: 5px;
 }
