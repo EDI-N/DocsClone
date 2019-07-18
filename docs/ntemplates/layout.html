@@ -22,6 +22,26 @@
         }, 500);
         });
     </script>
+    <!-- Кастомная кнопка в левом нижнем углу -->
+    <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+        <span class="rst-current-version" data-toggle="rst-current-version">
+            <span class="fa fa-cog">&nbsp;&nbsp;Options</span>&nbsp;
+            <span class="fa fa-angle-up"></span>
+        </span>
+        <div class="rst-other-versions">
+            <dl>
+                <dt>Contribute</dt>
+                <dd>
+                    <a href="docs@edi-n.com">Report a Problem</a>
+                </dd>
+                {% if pagename != "search" and suffix %}
+                <dd>
+                    <a href="https://github.com/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}"> Edit on GitHub</a>
+                </dd>
+                {% endif %}
+            </dl>
+        </div>
+    </div>
 {% endblock %}
 
 
