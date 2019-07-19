@@ -29,15 +29,29 @@
             <span class="fa fa-angle-up"></span>
         </span>
         <div class="rst-other-versions">
-            <dl>
-                <dt>Contribute</dt>
-                <dd>
-                    <a href="docs@edi-n.com">Report a Problem</a>
-                </dd>
-                <dd>
-                    <a href="https://github.com/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}"> Edit on GitHub</a>
-                </dd>
-            </dl>
+            <!-- Попробую пихнуть сюда еще катомные настройки -->
+            <div class="injected">
+                <dl>
+                    <dt>Languages</dt>
+                    <dd><a href="https://wiki.edi-n.com/uk/latest/">uk</a></dd>             
+                    <dd><a href="https://wiki.edi-n.com/ru/latest/">ru</a></dd>
+                </dl>
+                <dl>
+                    <dt>Downloads</dt>    
+                    <dd><a href="//readthedocs.org/projects/docs-ua/downloads/pdf/latest/">PDF</a></dd>
+                    <dd><a href="//readthedocs.org/projects/docs-ua/downloads/htmlzip/latest/">HTML</a></dd>
+                    <dd><a href="//readthedocs.org/projects/docs-ua/downloads/epub/latest/">Epub</a></dd>
+                </dl>
+                <dl>
+                    <dt>Contribute</dt>
+                    <dd>
+                        <a href="docs@edi-n.com">Report a Problem</a>
+                    </dd>
+                    <dd>
+                        <a href="https://github.com/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}"> Edit on GitHub</a>
+                    </dd>
+                </dl>
+            </div>
         </div>
     </div>
 {% endblock %}
