@@ -8,7 +8,7 @@ $(document).ready(function () {
     var update = setInterval(function() {
         if ($('.injected .rst-versions').length) {
             clearInterval(update);
-            //comment cause have some template already $('.rst-current-version span:first').html(' Change version');
+            $('.rst-current-version span:first').html(' Change version');
             $('.rst-other-versions').html($('.injected dl:first').clone());
             $('.injected').remove();
         }
