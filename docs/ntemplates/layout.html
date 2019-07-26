@@ -26,6 +26,7 @@
 {% endblock %}
 
 {% block extrahead %}
+    {{ super() }}
     <!-- Onesignal test -->
     <link rel="manifest" href="/manifest.json" />
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
@@ -37,6 +38,5 @@
         });
     });
     </script> 
-    {{ super() }}
 {% endblock %}
 
