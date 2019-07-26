@@ -26,15 +26,14 @@
 
 
 {% block extrahead %}
-    {{ super() }}
     <link rel="manifest" href="/manifest.json" />
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
     <script>
-      var OneSignal = window.OneSignal || [];
-      OneSignal.push(function() {
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(function() {
         OneSignal.init({
-          appId: "e652011d-f256-4e28-8b07-8e4ae93728ec",
+        appId: "7b5d5a38-eca8-4bfd-a89b-623c20fbd404",
         });
-      });
+    });
     </script>
 {% endblock %}
