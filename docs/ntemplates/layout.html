@@ -27,8 +27,6 @@
 
 {% block extrahead %}
     {{ super() }}
-    <!-- Onesignal test -->
-    <link rel="manifest" href="/manifest.json" />
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
     <script>
     var OneSignal = window.OneSignal || [];
@@ -37,6 +35,6 @@
         appId: "7b5d5a38-eca8-4bfd-a89b-623c20fbd404",
         });
     });
-    </script> 
+    </script>
 {% endblock %}
 
