@@ -23,7 +23,7 @@
         }, 500);
         });
     </script>
-    <!-- Да это же onesignal  -->
+    <!-- Да это же onesignal -->
     <link rel="manifest" href="/manifest.json" />
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
     <script>
@@ -33,6 +33,19 @@
         appId: "61d7ad5d-2e95-4fb8-8476-c6e5966c333e",
         });
     });
-    </script>
+    </script>  
 {% endblock %}
 
+{% block extrahead %}
+    <!-- Да это же onesignal 
+    <link rel="manifest" href="/manifest.json" />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(function() {
+        OneSignal.init({
+        appId: "7b5d5a38-eca8-4bfd-a89b-623c20fbd404",
+        });
+    });
+    </script>  -->
+{% endblock %}
